@@ -1,0 +1,24 @@
+Write a Program to Retrieve ASCII Value of a Specific Inputs
+IDE Used: Eclipse 
+
+
+public class ASCII_Value_2 
+{
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+
+		char a='A';
+		char b='B';
+		
+		int asciivalue1=a;
+		int asciivalue2=b;
+		
+		System.out.println("ASCII Value of " +a+ " is: " +asciivalue1);
+		System.out.println("ASCII Value of " +b+ " is: " +asciivalue2);
+		
+		System.out.println();
+		
+	}
+
+}
