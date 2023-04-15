@@ -1,0 +1,19 @@
+Write a Program to Retrieve ASCII Values
+IDE Used: Eclipse
+
+
+public class ASCII_Value_3 
+{
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+		
+		int i;
+		
+		for(i=0;i<=255;i++)
+		{
+			System.out.println("ASCII Value of " + (char)i + "=" + i);
+		}
+	}
+
+}
