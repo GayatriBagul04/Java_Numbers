@@ -1,2 +1,2 @@
 # Numbers
-Java Programs to retrieve numbers such as ASCII value etc.
+Java Programs to retrieve ASCII values.
