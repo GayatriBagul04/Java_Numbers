@@ -1,2 +1,2 @@
 # Numbers
-Java Programs to retrieve ASCII values.
+Java Programs to retrieve ASCII values, Peterson numbers, random numbers,reverse numbers.
