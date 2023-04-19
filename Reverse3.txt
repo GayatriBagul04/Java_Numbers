@@ -1,0 +1,41 @@
+Write a program to reverse a number.
+IDE Used: Eclipse
+
+
+
+import java.util.Scanner;
+
+public class Reverse_Number_3 
+{
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+		
+		int num,reverse=0,remainder;
+		
+		System.out.println("Enter an Integer: ");
+		
+		Scanner sc=new Scanner(System.in);
+		num=sc.nextInt();
+		
+		boolean isnonegative=num<0?true:false;
+		
+		if(isnonegative)
+		{
+			num=num*-1;
+		}
+		
+		while(num>=1)
+		{
+			remainder=num%10;
+			reverse=(reverse*10)+remainder;
+			num=num/10;
+		}
+		
+		 //isnonegative==true ? reverse*-1:reverse;
+		System.out.println("Reverse of a number is: " +reverse);
+
+	sc.close();
+	}
+
+}

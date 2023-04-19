@@ -1,0 +1,29 @@
+Write a Program that generates random numbers by using formula
+IDE Used: Eclipse
+
+import java.lang.Math;
+import java.util.Scanner;
+
+public class Random_Numbers_By_Formula 
+{
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+		
+		int max,min;
+		
+		System.out.println("Enter an Integer 1");
+		System.out.println("Enter an Integer 2");
+		
+		Scanner sc=new Scanner(System.in);
+		max=sc.nextInt();
+		min=sc.nextInt();
+		
+		System.out.println("Random number generated between "+ max + " and " +min);
+		int a= (int)(Math.random()*(max - min + 1)+min);
+		System.out.println(a);
+		
+	sc.close();
+	}
+
+}

@@ -1,0 +1,70 @@
+A Program that generates random numbers using class.
+IDE Used: Eclipse
+
+
+import java.util.Random;
+import java.util.Scanner;
+
+public class Random_Numbers_Using_Class 
+{
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+		
+		int num1,num2;
+		
+		Random r= new Random();
+		System.out.println("For Integer: ");
+		System.out.println("1. Generated Random Number between 0 and 100");
+		System.out.println("2. Generated Random Number between 0 and 1000");
+		
+		
+		num1=r.nextInt(100);
+		num2=r.nextInt(1000);
+		
+		System.out.println(num1);
+		System.out.println(num2);
+		
+		System.out.println("For Double: ");
+		System.out.println("1. Generated Random Number between 0 and 100");
+		System.out.println("2. Generated Random Number between 0 and 1000");
+		
+		double num3=r.nextDouble();
+		double num4=r.nextDouble();
+		
+		System.out.println(num3);
+		System.out.println(num4);
+		
+		
+		System.out.println("For Float: ");
+		System.out.println("1. Generated Random Number between 0 and 100");
+		System.out.println("2. Generated Random Number between 0 and 1000");
+		
+		float num5=r.nextFloat();
+		float num6=r.nextFloat();
+		
+		System.out.println(num5);
+		System.out.println(num6);
+		
+		System.out.println("For Long: ");
+		System.out.println("1. Generated Random Number between 0 and 100");
+		System.out.println("2. Generated Random Number between 0 and 1000");
+		
+		long num7=r.nextLong();
+		long num8=r.nextLong();
+		
+		System.out.println(num7);
+		System.out.println(num8);
+		
+	
+		System.out.println("For Boolean: ");
+		
+		
+		boolean num9=r.nextBoolean();
+		boolean num10=r.nextBoolean();
+		
+		System.out.println(num9);
+		System.out.println(num10);
+	}
+
+}

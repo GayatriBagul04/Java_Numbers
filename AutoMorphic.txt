@@ -1,0 +1,43 @@
+Write a program to generate Automorphic Numbers 
+IDE Used: Eclipse
+
+
+
+import java.util.Scanner;
+
+public class AutoMorphic_Number 
+{
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+		
+		int num,i;
+		
+		System.out.println("Enter an Integer: ");
+		
+		Scanner sc=new Scanner(System.in);
+		num=sc.nextInt();
+		
+		int square=num*num;
+		
+		for(i=0;i<=num;i++)
+		{
+			
+			if(num<0)
+			{
+				System.out.println("Integer is not AutoMorphic");
+			}
+			
+			else
+			{
+				num=num/10;
+				square=square/10;
+				//int cal=(int)(square%Math.pow(10, square));
+				System.out.println("Integer is AutoMorphic");
+			}
+		}
+
+	sc.close();
+	}
+
+}

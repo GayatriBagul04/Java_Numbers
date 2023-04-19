@@ -1,0 +1,40 @@
+Write a Program to Generate Peterson numbers.
+IDE Used: Eclipse
+
+
+import java.util.Scanner;
+
+public class Peterson_Number 
+{
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+
+		int num,i,fact=0,first;
+		
+		System.out.println("Enter an Integer: ");
+		
+		Scanner sc=new Scanner(System.in);
+		num=sc.nextInt();
+		
+		if(num==0 && fact==0)
+		{
+			System.out.println("Given number is not Peterson Number.");
+		}
+		
+		else
+		{
+			for(i=1;i<=num;i++)
+			{
+				first=num%10;
+				fact=fact*first;
+				first=num/10;
+				
+				System.out.println("Given number is Peterson Number ");
+			}
+		}
+		
+	sc.close();
+	}
+
+}
